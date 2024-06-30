@@ -1,0 +1,31 @@
+body {
+    background-color:#030303;
+    color: #dfdfdf;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.textbox {
+    height: auto;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+}
+
+.img {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
